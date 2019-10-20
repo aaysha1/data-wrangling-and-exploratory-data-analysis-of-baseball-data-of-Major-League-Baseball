@@ -1,0 +1,20 @@
+Lahman’s Baseball Database (http://www.seanlahman.com/baseball-archive/statistics/)
+The updated version of the database contains complete batting and pitching statistics from 1871 to 2018, plus fielding statistics, 
+standings, team stats, managerial records, post-season data, and more. 
+For more details on the latest release, "http://www.seanlahman.com/files/database/readme2017.txt" 
+
+Major League Baseball is a professional baseball league, where teams pay players to play baseball. 
+The goal of each team is to win as many games out of a 162 game season as possible. Teams win games by scoring more runs than their 
+adversary. In principle, better players are costlier, so teams that want good players need to spend more money. 
+
+Teams that spend the most, frequently win the most. So, the question is, how can a team that can't spend so much win? 
+The basic idea that Oakland (and other teams) used is to redefine what makes a player good, i.e., figure out what player 
+characteristics translated into wins. Once they realized that teams were not really pricing players using these characteristics, 
+they could exploit this to pay for undervalued players, players that were good according to their metrics, but were not recognized 
+as such by other teams, and therefore not as expensive.
+
+The project validates this relationship by exploring and analyzing the data, does their any actual relationship between payroll of the players
+and the team's winning probability. Also was there anything anamoly when OAK team won in 2000 to 2004.
+
+Data Source: Data in SQL file for download https://github.com/jknecht/baseball-archive-sqlite.
+              https://github.com/jknecht/baseball-archive-sqlite/raw/master/lahman2014.sqlite.
